@@ -1,0 +1,37 @@
+Utilizando Prompts para Gerar Insights de Relatórios de Vendas
+Self-service report
+Use case(Problema a ser resolvido): 
+    características da empresa: 
+      - Trabalha apenas na fabricação dos consoles, deixando a distribuição e venda para terceiros.
+      - Os produtos são vendidos globalmente.
+    Problemas:
+      - Fabricante não tem o controle das vendas pois cada um dos terceiros tem a sua base de controle.
+      - Ela não sabe o que é que mais vende, portanto não sabe a onde focar.
+    Objetivos:
+      - Consolidar todas as bases de terceiros para realizar uma analise.
+      - Transformar dados de vendas em informações relevantes para a fabricante.
+      - Descobrir quais são os produtos mais populares em cada pais.
+      - Como otimizar o processo de transporte e logística ate o momento da venda final para o cliente.
+
+estrutura de pastas:
+    data /dados
+      processed_data /dados já processados
+      raw_data /dados de maneira bruta(backup)
+    insights /é onde fica os arquivos que vou mandar para o cliente
+    prompts /prompts usados
+      chatgpt_prompts.md
+    scripts
+    readme.md /explicação de tudo o que tem na pasta
+
+criando o process data:
+    vou nas planilhas clico com o botão direito do mause e depois na opção copiar ou mover, seleciono nova pasta e depois em copiar dados e então salvar, as demais segue o mesmo processo porem seleciona a pasta já criada e adiciona ao final da planilha
+
+consolidando(formata a planilha):
+    Seleciona a coluna A depois vai em dados depois texto para coluna - delimitado e virgula
+
+Entendendo os dados:
+    estudo da planilha para saber o que pode e o que não pode ser feito.
+
+Aonde vamos utilizar os dados:
+    em GPTs(pago) posso criar um chat especialista em alguma coisa e é onde vai ser usasdo a base de dados.
+    pra fazer de graça não da para fazer um chat especialista mas da para mandar os arquivos e ele salva os arquivos na janela de contexto da conversa e então faz as perguntas.
